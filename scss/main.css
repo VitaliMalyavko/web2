@@ -1,0 +1,242 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #343A40;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+header {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.nav-menu {
+  width: 100%;
+  height: 40px;
+  background: #F4F4F4;
+}
+
+.nav-menu__links {
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  margin-left: 76%;
+}
+
+.nav-menu__links a {
+  text-decoration: none;
+  color: #AAAAAA;
+  font-size: 12px;
+  line-height: 33px;
+  padding: 10px 0px;
+}
+
+.sub-menu {
+  margin: 0% 5%;
+  height: 99px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-menu__logo-img {
+  padding: 25px 214px 24px 48px;
+}
+
+.sub-menu__links {
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  width: 41%;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+}
+
+.sub-menu__links a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 43px 0px;
+}
+
+.sub-menu__geolocations {
+  display: inline-block;
+}
+
+.description__pic {
+  margin-left: 4%;
+  margin-top: 49px;
+}
+
+.description__caption {
+  color: #1A1A1A;
+  font-size: 48px;
+  line-height: 58px;
+  width: 25%;
+  margin: 82px 136px 208px 175px;
+  display: inline-block;
+}
+
+.description__text {
+  color: #AAAAAA;
+  font-size: 24px;
+  line-height: 40px;
+  width: 40%;
+  display: inline-block;
+}
+
+.description__card {
+  margin-left: 5%;
+  display: -ms-grid;
+  display: grid;
+  width: 83%;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  row-gap: 32px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 0px 48px 32px 48px;
+}
+
+.description__card__card-block__text {
+  color: #1A1A1A;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 9px;
+}
+
+.brand-item {
+  margin: 215px 12% 190px 12%;
+}
+
+.brand-item__picture {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  row-gap: 49px;
+}
+
+.brand-item__caption {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #1A1A1A;
+  margin-bottom: 27px;
+}
+
+.brand-item__text {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #4A4A4A;
+  margin-bottom: 125px;
+}
+
+.content-cards {
+  margin-top: 83px;
+  margin-left: 12%;
+  margin-bottom: 240px;
+}
+
+.content-cards__caption {
+  max-width: 75%;
+  color: #1A1A1A;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.content-cards__text {
+  color: #46856E;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  margin-bottom: 71px;
+}
+
+.content-cards__item {
+  max-width: 73%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+}
+
+.content-cards__item__card img {
+  margin-left: 16%;
+}
+
+.content-cards__item__card__caption {
+  margin-top: 26px;
+  margin-bottom: 18px;
+  color: #1A1A1A;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.content-cards__item__card__text {
+  color: #AAAAAA;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.description {
+  background: url(../images/women.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description__block {
+  margin-left: 12%;
+}
+
+.description__block__rating-img {
+  margin-top: 120px;
+}
+
+.description__block__text {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  width: 20%;
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+
+.description__link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.description__link__text {
+  margin-left: 12%;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  margin-top: 39px;
+  padding-bottom: 129px;
+}
+/*# sourceMappingURL=main.css.map */
