@@ -203,21 +203,21 @@ header {
   text-align: left;
 }
 
-.description {
+.description-down {
   background: url(../images/women.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.description__block {
+.description-down__block {
   margin-left: 12%;
 }
 
-.description__block__rating-img {
+.description-down__block__rating-img {
   margin-top: 120px;
 }
 
-.description__block__text {
+.description-down__block__text {
   color: #fff;
   font-size: 24px;
   line-height: 32px;
@@ -226,17 +226,167 @@ header {
   margin-bottom: 8px;
 }
 
-.description__link {
+.description-down__link {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-.description__link__text {
+.description-down__link__text {
   margin-left: 12%;
   font-size: 16px;
   line-height: 12px;
   letter-spacing: 0.75px;
   margin-top: 39px;
   padding-bottom: 129px;
+}
+
+.card-block {
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.card-block__text__description {
+  color: #AAAAAA;
+  font-size: 46px;
+  line-height: 52px;
+  width: 68%;
+  margin-left: 16%;
+  margin-top: 240px;
+  margin-bottom: 25px;
+}
+
+.card-block__text__bolt {
+  color: #000000;
+  margin-left: 16%;
+  font-size: 46px;
+  line-height: 52px;
+  margin-bottom: 135px;
+}
+
+.card-block__items__img-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-block__items__img-text__img-middle {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.card-block__items__img-text__text-cap {
+  width: 23%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.card-block__items__img-text__text-cap h5 {
+  color: #1A1A1A;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 216px;
+}
+
+.card-block__items__img-text__text-cap p {
+  color: #AAAAAA;
+  margin-top: 27px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-block__img {
+  margin-bottom: 286px;
+  margin-top: 288px;
+}
+
+.content {
+  width: 83%;
+  background: #F2F2F2;
+  margin-left: 7.4%;
+}
+
+.content__caption {
+  color: #000000;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  padding-top: 63px;
+}
+
+.content__text {
+  color: #AAAAAA;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 26px;
+}
+
+.content__buttom {
+  color: white;
+  font-size: 12px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  padding: 19px 28px;
+  background: #46856E;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  margin-left: 44%;
+}
+
+.content__buttom:hover {
+  background: white;
+  color: #46856E;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.content__card {
+  margin-left: 16.8%;
+  width: 67%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 65px;
+  padding-bottom: 70px;
+}
+
+.content__card__link-pic {
+  width: 200px;
+}
+
+.content__card__link-pic__pic-top {
+  margin: 0px 68px 22px 68px;
+}
+
+.content__card__link-pic__pic-middle {
+  margin: 6px 68px 29px 68px;
+}
+
+.content__card__link-pic__pic-buttom {
+  margin: 0px 68px 22px 68px;
+}
+
+.content__card__link-pic__link {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.75px;
+  margin-left: 52px;
+}
+
+.content__card__link-pic__link-middle {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.75px;
+  margin-left: 58px;
 }
 /*# sourceMappingURL=main.css.map */
