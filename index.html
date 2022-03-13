@@ -9,29 +9,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="scss/main.css">
+    
 </head>
 <body>
 <div class="wrapper">
     <header>
         <div class="nav-menu">
             <ul class="nav-menu__links">
-                <li> <a href="#">Contact Sales</a></li>
+                <li> <a href="top">Contact Sales</a></li>
                 <li> <a href="tel:646-791-3726">TEL 646-791-3726</a></li>
-                <li> <a href="#">US</a></li>
+                <select name="select"> 
+                    <option value="value1">US</option>
+                    <option value="value2">UK</option>
+                    <option value="value3">EU</option>
+                </select>
             </ul>
 
         </div>
         <div class="sub-menu">
-            <img class="sub-menu__logo-img" src="./images/logo.svg" alt="logo">
+            <img class="sub-menu__logo-img"  src="./images/logo.svg" alt="logo">
             <ul class="sub-menu__links">
                 <li> <a href="">Products</a></li>
                 <li> <a href="">Explore</a></li>
                 <li> <a href="">Shop</a></li>
-                <li> <a href=""> <img class="sub-menu__geolocations" src="./images/nav.svg" alt="map"> Showrooms</a></li>
+                <li> </li>
             </ul>
-            
-            <img class="basket" src="./images/basket.svg" alt="basket">
+            <div class="sub-menu__cart">
+            <a href=""> <img class="sub-menu__cart__geolocations" src="./images/nav.svg" alt="map">  Showrooms</a>
+            <img class="sub-menu__cart__basket" src="./images/basket.svg" alt="basket">
+        </div>
         </div>    
 
 
@@ -91,22 +99,20 @@
     </section>
 
 
-    <section class="slides">
-        <div class="slides__body">
-            <input type="radio" name="r" id="radiobuttom1" checked>
-            <input type="radio" name="r" id="radiobuttom2">
-            <input type="radio" name="r" id="radiobuttom3">
-
-            <div class="slide"> <img src="./images/slide-pic.png" alt="pic1"></div>
-            
+    
+    <div class="swiper ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="../сайт2/images/slide-pic.png"></div>
+          <div class="swiper-slide"><img src="../сайт2/images/slide-pic.png"></div>
+          <div class="swiper-slide"><img src="../сайт2/images/slide-pic.png"></div>
+     
         </div>
-
-        <div class="navigation">
-            <label for="radiobuttom1" class="bar"></label>
-            <label for="radiobuttom2" class="bar"></label>
-            <label for="radiobuttom3" class="bar"></label>
-        </div>
-    </section>
+        
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          
+      </div>
 
     <section class="content-cards">
 
@@ -225,10 +231,109 @@
 
         <a class="content__buttom" href="#">GET A ROOM</a>
         <p class="content__text">Terms & Conditions apply</p>
-        
-        
+         
     </section>
 
+    <footer class="footer">
+        <div class="footer__box">
+            <div class="footer__box__img">
+                <img src="./images/fot-logo.svg" alt="fot-logo">
+            </div>
+
+            <div class="footer__box__links">
+
+                <ul class="footer__box__links__about">
+                    <li class="footer__box__links__about__title"> About</li>
+                    <li><a href="#">Compare</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Risk-Free Trial</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Podcast</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+
+                <ul class="footer__box__links__support">
+                    <li class="footer__box__links__support__title"> Support</li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Booth Assembly</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Room Service</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Copyright</a></li>
+                </ul>
+
+
+                <ul class="footer__box__links__showrooms">
+                    <li class="footer__box__links__showrooms__title"> Showrooms</li>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">San Francisco</a></li>
+                    <li><a href="#">Paris</a></li>
+                    <li><a href="#">Copenhagen</a></li>
+                    <li><a href="#">Zürich</a></li>
+                    <li><a href="#">Los Angeles</a></li>
+                    <li><a href="#">Berlin</a></li>
+                    <li><a href="#">Belgium</a></li>
+                    <li><a href="#">Virtual Demo</a></li>
+                </ul>
+
+
+                <ul class="footer__box__links__office">
+                    <li class="footer__box__links__office__title">Office</li>
+                    <li> 599 Broadway, FL 9 <br> New York, NY 10012</li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="footer__box__social-links">
+                <ul class="footer__box__social-links__follow-us">
+                    <li class="footer__box__social-links__follow-us__title">Follow us</li>
+                    <div class="footer__box__social-links__follow-us__links">
+                    <li> <a href="#"> <img src="./images/facebook.svg" alt="meta"></a></li>
+                    <li> <a href="#"> <img src="./images/insta.svg" alt="insta"></a></li>
+                    <li> <a href="#"> <img src="./images/link.svg" alt="link"></a></li>
+                    <li> <a href="#"> <img src="./images/pint.svg" alt="pint"></a></li>
+                    </div>
+                </ul>
+
+            </div>
+
+
+
+            <div class="footer__box__forms">
+                <p class="footer__box__forms__text-cap">Join our mailing list</p>
+
+                <p class="footer__box__forms__text-body">Be the first to hear everything about ROOM.</p>
+
+                <input class="footer__box__forms__comment" type="text" name="form-control" placeholder=""> 
+
+                <select name="select"> 
+                    <option value="value1">United States</option>
+                    <option value="value2">United kingdom</option>
+                    <option value="value3">EU</option>
+                </select>
+
+            
+
+                
+            </div>
+
+            <div class="footer__box__check-box">
+                <input type="checkbox" name="checked"> <span> Yes. I would like to receive marketing communications from ROOM about product updates and special offers. Please refer to ROOM’s Privacy Policy for more information about how we process your data (including how to unsubscribe). </span>
+            </div>
+
+            <a class="footer__box__link-sing-in" href="#">SING IN</a>
+
+            <a class="footer__box__link-to-top" href="#top">RETURN TO THE TOP</a>
+            
+        </div>
+        
+
+    </footer>
 
 
 

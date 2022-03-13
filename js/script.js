@@ -1,11 +1,15 @@
-new Swiper ('.image-slider',{
-    navigation: {
-        nextE1: '.swiper-button-next',
-        prevE1: '.swiper-button-prev'
-    },
-    pagination:{
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+var swiper = new Swiper(".swiper", {
 
-});
+  spaceBetween: 0,
+    
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dinamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },  
+    
+    });
